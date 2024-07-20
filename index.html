@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <div class="left">
+
+      <div class="date">
+        <div>
+          <label for="day" class="name">DAY</label>
+          <input type="number" name="day" placeholder="DD" class="input" id="day">
+          <p class="error" id="day-error">This field is required</p>
+        </div>
+        <div>
+          <label for="month" class="name">MONTH</label>
+          <input type="number" name="month" placeholder="MM" class="input" id="month">
+          <p class="error" id="month-error">This field is required</p>
+        </div>
+        <div>
+          <label for="year" class="name">YEAR</label>
+          <input type="number" name="year" placeholder="YYYY" class="input" id="year">
+          <p class="error" id="year-error">This field is required</p>
+        </div>
+      </div>
+
+
+      <div class="result">
+        <div class="year"><span class="year-result">- -</span> years</div>
+        <div class="month"><span class="month-result">- -</span> months</div>
+        <div class="day"><span class="day-result">- -</span> days</div>
+      </div>
+    </div>
+    <div class="icon"><img src="./assets/images/icon-arrow.svg"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
